@@ -38,9 +38,9 @@
 		4AD55440259B4E3F00A17761 /* mkBoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mkBoardApp.swift; sourceTree = "<group>"; };
 		4AD55441259B4E3F00A17761 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4AD55442259B4E4100A17761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4AD55447259B4E4100A17761 /* mkBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mkBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD55447259B4E4100A17761 /* mkRCB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mkRCB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD5544A259B4E4100A17761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4AD5544F259B4E4100A17761 /* mkBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mkBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD5544F259B4E4100A17761 /* mkRCB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mkRCB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD55451259B4E4100A17761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AD55452259B4E4100A17761 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		4AD55457259B4E4100A17761 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,8 +108,8 @@
 		4AD55448259B4E4100A17761 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4AD55447259B4E4100A17761 /* mkBoard.app */,
-				4AD5544F259B4E4100A17761 /* mkBoard.app */,
+				4AD55447259B4E4100A17761 /* mkRCB.app */,
+				4AD5544F259B4E4100A17761 /* mkRCB.app */,
 				4AD55457259B4E4100A17761 /* Tests iOS.xctest */,
 				4AD55462259B4E4100A17761 /* Tests macOS.xctest */,
 			);
@@ -154,9 +154,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4AD55446259B4E4100A17761 /* mkBoard (iOS) */ = {
+		4AD55446259B4E4100A17761 /* mkRCB (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AD55471259B4E4100A17761 /* Build configuration list for PBXNativeTarget "mkBoard (iOS)" */;
+			buildConfigurationList = 4AD55471259B4E4100A17761 /* Build configuration list for PBXNativeTarget "mkRCB (iOS)" */;
 			buildPhases = (
 				4AD55443259B4E4100A17761 /* Sources */,
 				4AD55444259B4E4100A17761 /* Frameworks */,
@@ -166,14 +166,14 @@
 			);
 			dependencies = (
 			);
-			name = "mkBoard (iOS)";
+			name = "mkRCB (iOS)";
 			productName = "mkBoard (iOS)";
-			productReference = 4AD55447259B4E4100A17761 /* mkBoard.app */;
+			productReference = 4AD55447259B4E4100A17761 /* mkRCB.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4AD5544E259B4E4100A17761 /* mkBoard (macOS) */ = {
+		4AD5544E259B4E4100A17761 /* mkRCB (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AD55474259B4E4100A17761 /* Build configuration list for PBXNativeTarget "mkBoard (macOS)" */;
+			buildConfigurationList = 4AD55474259B4E4100A17761 /* Build configuration list for PBXNativeTarget "mkRCB (macOS)" */;
 			buildPhases = (
 				4AD5544B259B4E4100A17761 /* Sources */,
 				4AD5544C259B4E4100A17761 /* Frameworks */,
@@ -183,9 +183,9 @@
 			);
 			dependencies = (
 			);
-			name = "mkBoard (macOS)";
+			name = "mkRCB (macOS)";
 			productName = "mkBoard (macOS)";
-			productReference = 4AD5544F259B4E4100A17761 /* mkBoard.app */;
+			productReference = 4AD5544F259B4E4100A17761 /* mkRCB.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4AD55456259B4E4100A17761 /* Tests iOS */ = {
@@ -249,7 +249,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4AD5543E259B4E3F00A17761 /* Build configuration list for PBXProject "mkBoard" */;
+			buildConfigurationList = 4AD5543E259B4E3F00A17761 /* Build configuration list for PBXProject "mkRCB" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -262,8 +262,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4AD55446259B4E4100A17761 /* mkBoard (iOS) */,
-				4AD5544E259B4E4100A17761 /* mkBoard (macOS) */,
+				4AD55446259B4E4100A17761 /* mkRCB (iOS) */,
+				4AD5544E259B4E4100A17761 /* mkRCB (macOS) */,
 				4AD55456259B4E4100A17761 /* Tests iOS */,
 				4AD55461259B4E4100A17761 /* Tests macOS */,
 			);
@@ -343,12 +343,12 @@
 /* Begin PBXTargetDependency section */
 		4AD55459259B4E4100A17761 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4AD55446259B4E4100A17761 /* mkBoard (iOS) */;
+			target = 4AD55446259B4E4100A17761 /* mkRCB (iOS) */;
 			targetProxy = 4AD55458259B4E4100A17761 /* PBXContainerItemProxy */;
 		};
 		4AD55464259B4E4100A17761 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4AD5544E259B4E4100A17761 /* mkBoard (macOS) */;
+			target = 4AD5544E259B4E4100A17761 /* mkRCB (macOS) */;
 			targetProxy = 4AD55463259B4E4100A17761 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -480,7 +480,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.31n.mkBoard;
-				PRODUCT_NAME = mkBoard;
+				PRODUCT_NAME = mkRCB;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -502,7 +502,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.31n.mkBoard;
-				PRODUCT_NAME = mkBoard;
+				PRODUCT_NAME = mkRCB;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -528,7 +528,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.31n.mkBoard;
-				PRODUCT_NAME = mkBoard;
+				PRODUCT_NAME = mkRCB;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -552,7 +552,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.31n.mkBoard;
-				PRODUCT_NAME = mkBoard;
+				PRODUCT_NAME = mkRCB;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -650,7 +650,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4AD5543E259B4E3F00A17761 /* Build configuration list for PBXProject "mkBoard" */ = {
+		4AD5543E259B4E3F00A17761 /* Build configuration list for PBXProject "mkRCB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AD5546F259B4E4100A17761 /* Debug */,
@@ -659,7 +659,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AD55471259B4E4100A17761 /* Build configuration list for PBXNativeTarget "mkBoard (iOS)" */ = {
+		4AD55471259B4E4100A17761 /* Build configuration list for PBXNativeTarget "mkRCB (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AD55472259B4E4100A17761 /* Debug */,
@@ -668,7 +668,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AD55474259B4E4100A17761 /* Build configuration list for PBXNativeTarget "mkBoard (macOS)" */ = {
+		4AD55474259B4E4100A17761 /* Build configuration list for PBXNativeTarget "mkRCB (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AD55475259B4E4100A17761 /* Debug */,
